@@ -47,6 +47,8 @@ public class App extends Application {
 
 
         menuButtonVB = new VBox(menuStartButton, menuGuideButton);
+        menuButtonVB.setAlignment(Pos.CENTER);
+
         menuBP.setCenter(menuButtonVB);
 
 
