@@ -42,6 +42,9 @@ public class App extends Application {
         Button menuStartButton = new Button();
         Button menuGuideButton = new Button();
 
+        menuStartButton.setText("Start Formatting");
+        menuGuideButton.setText("Formatting Guide");
+
 
         menuButtonVB = new VBox(menuStartButton, menuGuideButton);
         menuBP.setCenter(menuButtonVB);
